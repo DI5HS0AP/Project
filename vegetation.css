@@ -6,7 +6,27 @@ body {
     background-color: lightblue;
 }
 
+.card img {
+    float: left;
+    margin-right: 18px;
+    width: 160px;
+    height: auto;
+    border-radius: 10px;
+}
 
+.stuff {
+    overflow: hidden;
+}
+
+.stuff h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+}
+
+.stuff p {
+    margin: 0;
+    color: #5a5858;
+}
 
 
 footer {
@@ -36,7 +56,6 @@ footer span{
     text-align: center;
 }
 
-/* Styling for the logo */
 footer img {
     float:left;
     width: 50px; 
@@ -44,12 +63,11 @@ footer img {
     margin-right: 20px; 
 }
 
-/* Styling for the headers */
 footer h2 {
-    font-size: 16px; /* Adjust font size as needed */
+    font-size: 16px;
 }
 
-/* Space between headers */
+
 footer h2 + h2 {
-    margin-left: 20px; /* Adjust space between headers */
+    margin-left: 20px;
 }
