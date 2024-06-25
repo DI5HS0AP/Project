@@ -25,7 +25,7 @@ footer {
     background-color: #333;
     color: #fff;
     padding: 20px; 
-    display: flex; /* i googled what will help me make them horizontally positioned and not ugly*/
+    display: flex; /*i googled what will help me make them horizontally positioned and not ugly, didnt work obvi*/
     justify-content: space-between;
     width: 100%;
     bottom: 0;
